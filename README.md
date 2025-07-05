@@ -1,6 +1,6 @@
-🧾 SALES FORECASTING FLASK APP PROJECT - README
+ SALES FORECASTING FLASK APP PROJECT - README
 
-🔧 Project Structure:
+ Project Structure:
 -----------------------
 sales_forecast_app/
 │
@@ -11,7 +11,7 @@ sales_forecast_app/
 │   ├── index.html          --> Form UI for entering input
 │   └── result.html         --> Page that displays predicted sales
 
-🧠 What Each File Does:
+ What Each File Does:
 -----------------------
 - app.py:
   Hosts the web application using Flask, loads the trained model, receives input,
@@ -26,13 +26,13 @@ sales_forecast_app/
 - xgb_sales_model.pkl:
   Pre-trained XGBoost regression model saved using pickle.
 
-📌 Notes:
+ Notes:
 -----------------------
 - HTML files are stored inside the `templates` folder as required by Flask.
 - app.py and model.pkl must be in the same directory for model loading to work properly.
 - The model expects exactly the same order and number of features as during training.
 
-💻 To Run:
+ To Run:
 -----------------------
 1. Open terminal or VS Code and navigate to this folder
 2. Run: python app.py
