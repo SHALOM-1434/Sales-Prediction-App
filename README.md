@@ -87,6 +87,12 @@ LinkedIn: https://www.linkedin.com/in/peaceginika/
 
 ---
 
+## Live App
+
+Try the live sales prediction app here:  
+https://rossmann-sales-prediction-01uw.onrender.com 
+
+
 ## License
 
 This project is open-source and free to use for educational and non-commercial purposes.
