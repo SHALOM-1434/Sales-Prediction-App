@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Prediction</title>
+</head>
+<body>
+    <h2>Enter Store Details</h2>
+    <form action="/predict" method="post">
+        <!-- Only the 21 features used in the model -->
+        Store: <input type="number" name="Store"><br><br>
+        Day of Week (1=Mon, 7=Sun): <input type="number" name="DayOfWeek"><br><br>
+        Open (0 or 1): <input type="number" name="Open"><br><br>
+        Promo (0 or 1): <input type="number" name="Promo"><br><br>
+        School Holiday (0 or 1): <input type="number" name="SchoolHoliday"><br><br>
+        Competition Distance: <input type="number" name="CompetitionDistance"><br><br>
+        Competition Open Month: <input type="number" name="CompetitionOpenSinceMonth"><br><br>
+        Competition Open Year: <input type="number" name="CompetitionOpenSinceYear"><br><br>
+        Promo2 (0 or 1): <input type="number" name="Promo2"><br><br>
+        Promo2 Since Week: <input type="number" name="Promo2SinceWeek"><br><br>
+        Promo2 Since Year: <input type="number" name="Promo2SinceYear"><br><br>
+        Year: <input type="number" name="Year"><br><br>
+        Month: <input type="number" name="Month"><br><br>
+        Day: <input type="number" name="Day"><br><br>
+        WeekofYear: <input type="number" name="WeekofYear"><br><br>
+        IsWeekend (0 or 1): <input type="number" name="IsWeekend"><br><br>
+        IsPromoMonth (0 or 1): <input type="number" name="IsPromoMonth"><br><br>
+        Competition Open Time (Months): <input type="number" name="CompetitionOpenTimeMonths"><br><br>
+        StoreType_b (0 or 1): <input type="number" name="StoreType_b"><br><br>
+        StoreType_c (0 or 1): <input type="number" name="StoreType_c"><br><br>
+        StoreType_d (0 or 1): <input type="number" name="StoreType_d"><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
